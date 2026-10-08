@@ -1,0 +1,74 @@
+{
+  "name": "Depensa",
+  "identifier": "com.techwithanirudh.depensa.source",
+  "subtitle": "The expense tracker that reads your orders for you.",
+  "description": "See where your money went. Depensa reads your order history from the shops you already buy from, and turns it into one categorised list of what you spent, in your currency. No bank or card linking.",
+  "iconURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/icon.png",
+  "website": "https://depensa.techwithanirudh.com/ios",
+  "tintColor": "#3B6AA7",
+  "featuredApps": [
+    "com.techwithanirudh.depensa"
+  ],
+  "apps": [
+    {
+      "name": "Depensa",
+      "bundleIdentifier": "com.techwithanirudh.depensa",
+      "developerName": "Anirudh",
+      "subtitle": "The expense tracker that reads your orders for you.",
+      "localizedDescription": "The expense tracker that reads your orders for you. Connect the shops you already buy from, and Depensa reads your order history, so your spending adds up without typing in a single expense.\n\nSign in to a shop on its own page, inside the app. Your password never leaves your phone. The first time a shop is connected, an AI model reads its order pages once and writes a small recipe for finding your orders; after that Depensa checks for new orders with that recipe, with no AI involved.\n\n- One total across every shop you connect, split by category or by shop\n- The items in each order and what each one cost\n- Subscriptions and other repeat charges, with the date each one is due next\n- Monthly budgets for a category or a shop\n- Amounts in other currencies converted to yours\n- Your expenses as a spreadsheet by email\n\nOn iPhone, Depensa is unsigned: SideStore or AltStore signs it with your own Apple Account. A sideloaded install can't receive notifications and has no Sign in with Apple; sign in with your email or Google.\n\nPrivacy: https://depensa.techwithanirudh.com/privacy",
+      "iconURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/icon.png",
+      "tintColor": "#3B6AA7",
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/01-see-where-your-money-went.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/02-every-shop-in-one-list.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/03-your-password-stays-on-your-phone.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/04-it-learns-how-the-shop-lists-orders.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/05-new-orders-show-up-on-their-own.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/06-every-order-with-items-and-refunds.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/07-every-order-lands-in-a-category.png",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/techwithanirudh/depensa-releases/main/screenshots/08-no-bank-or-card-linking.png",
+            "width": 1320,
+            "height": 2868
+          }
+        ]
+      },
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": []
+    }
+  ],
+  "news": []
+}
