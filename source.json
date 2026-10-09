@@ -59,12 +59,25 @@
         ]
       },
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
-          "NSFaceIDUsageDescription": "Allow Depensa to access your Face ID biometric data."
+          "NSFaceIDUsageDescription": "Allow Depensa to access your Face ID biometric data.",
+          "NSLocalNetworkUsageDescription": "Expo Dev Launcher uses the local network to discover and connect to development servers running on your computer."
         }
       },
       "versions": [
+        {
+          "buildVersion": "3",
+          "date": "2026-10-09T18:12:14Z",
+          "downloadURL": "https://github.com/techwithanirudh/depensa-releases/releases/download/v1.1.0-3/Depensa-1.1.0-3.ipa",
+          "localizedDescription": "Home-screen widgets: This month, Budget and Coming up. Every fix and improvement since 1.0.0 (2) is built in.",
+          "minOSVersion": "16.4",
+          "sha256": "ad9aa42fed12e9b59f16514375ca7389e852c0a3453e89a8f17c7d1eae078566",
+          "size": 19144155,
+          "version": "1.1.0"
+        },
         {
           "buildVersion": "2",
           "date": "2026-10-09T08:25:56Z",
