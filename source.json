@@ -66,6 +66,16 @@
       },
       "versions": [
         {
+          "buildVersion": "2",
+          "date": "2026-10-09T08:25:56Z",
+          "downloadURL": "https://github.com/techwithanirudh/depensa-releases/releases/download/v1.0.0-2/Depensa-1.0.0-2.ipa",
+          "localizedDescription": "A new app icon on your home screen. Search your expenses from the magnifier on Spending, and sign out from Edit profile. What’s new, under the version in Settings, lists what changed.",
+          "minOSVersion": "16.4",
+          "sha256": "ffe1ea596cd67c1f8831a9a51cb992436d7226759c8fee1ee539950a1f1b3a6b",
+          "size": 17431953,
+          "version": "1.0.0"
+        },
+        {
           "buildVersion": "1",
           "date": "2026-10-08T15:48:38Z",
           "downloadURL": "https://github.com/techwithanirudh/depensa-releases/releases/download/v1.0.0-1/Depensa-1.0.0-1.ipa",
