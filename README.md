@@ -35,7 +35,7 @@ To install the APK:
 
 The APK is the same build as the one on Google Play, but Google Play re-signs its copy with its own key, so the two are signed differently and can't update each other. To switch from a Play install to the APK, or from the APK to Play, uninstall Depensa first. Your expenses are kept on your account, so you only need to sign in again.
 
-An APK install doesn't update itself. When a new version comes out, download the APK from the latest release and open it; it installs over the old one and keeps you signed in. Smaller fixes still arrive inside the app, as they do on Google Play. On a phone without Google Play services, Depensa may not receive notifications.
+Smaller fixes arrive inside the app on their own, as they do on Google Play. A new version doesn't install itself: download the APK from the latest release and open it; it installs over the old one and keeps you signed in. If your version gets too old to keep working, Depensa shows an Update required screen that points here. On a phone without Google Play services, Depensa may not receive notifications.
 
 ## Checking a download
 
