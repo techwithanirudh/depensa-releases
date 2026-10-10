@@ -26,15 +26,27 @@ On a sideloaded iPhone, Depensa can't receive notifications and has no Sign in w
 
 ## Android
 
-Depensa is on [Google Play](https://play.google.com/store/apps/details?id=com.techwithanirudh.depensa).
+Depensa is on [Google Play](https://play.google.com/store/apps/details?id=com.techwithanirudh.depensa). You can also download the APK yourself, for a phone without Google Play or if you'd rather not use it.
+
+To install the APK:
+
+1. On your phone, open the [latest release](https://github.com/techwithanirudh/depensa-releases/releases/latest) and download the `.apk` file.
+2. Open the downloaded file. If Android asks, allow your browser or file manager to install unknown apps, then go back and tap Install.
+
+The APK is the same build as the one on Google Play, but Google Play re-signs its copy with its own key, so the two are signed differently and can't update each other. To switch from a Play install to the APK, or from the APK to Play, uninstall Depensa first. Your expenses are kept on your account, so you only need to sign in again.
+
+An APK install doesn't update itself. When a new version comes out, download the APK from the latest release and open it; it installs over the old one and keeps you signed in. Smaller fixes still arrive inside the app, as they do on Google Play. On a phone without Google Play services, Depensa may not receive notifications.
 
 ## Checking a download
 
-Every version in `source.json` lists the IPA's size in bytes and its SHA-256. On a Mac:
+Every version in `source.json` lists the IPA's size in bytes and its SHA-256. Each release's notes give the APK's SHA-256, and the release page shows it beside each file. On a Mac or Linux:
 
 ```sh
 shasum -a 256 Depensa-*.ipa
+shasum -a 256 Depensa-*.apk
 ```
+
+On Windows, run `certutil -hashfile` with the file's name and `SHA256`. The result should match the one listed.
 
 ## Licence
 
