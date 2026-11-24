@@ -69,6 +69,16 @@
       },
       "versions": [
         {
+          "buildVersion": "4",
+          "date": "2026-11-24T13:52:56Z",
+          "downloadURL": "https://github.com/techwithanirudh/depensa-releases/releases/download/v1.2.0-4/Depensa-1.2.0-4.ipa",
+          "localizedDescription": "A new setup: pick your shops first and sign in to each one right there.\nSomething looks off with a shop? Say what, and Depensa relearns it.\nAdd a budget from the + button, and open an order on the shop's own site when it gives a link.\nSend feedback from Settings, and refresh is smoother.",
+          "minOSVersion": "16.4",
+          "sha256": "e424de8b53cd9172a95030d5a801f689faafb478f961f8b98054aaeeb5985b5b",
+          "size": 24079113,
+          "version": "1.2.0"
+        },
+        {
           "buildVersion": "3",
           "date": "2026-10-09T18:12:14Z",
           "downloadURL": "https://github.com/techwithanirudh/depensa-releases/releases/download/v1.1.0-3/Depensa-1.1.0-3.ipa",
